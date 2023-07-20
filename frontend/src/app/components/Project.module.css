@@ -1,0 +1,15 @@
+.projectContainer {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 460px 460px 460px;
+    row-gap: 72px;
+    margin-bottom: 36px;
+}

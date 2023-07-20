@@ -1,0 +1,12 @@
+.navbarIcon {
+    margin: 32px auto 16px auto;
+    text-align: center;
+
+}
+
+.navbarHeaderText {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+}

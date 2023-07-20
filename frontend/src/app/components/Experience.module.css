@@ -1,0 +1,20 @@
+.experienceContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    width: 1064px;
+    max-width: 1576px;
+
+}
+
+.roleAndTenureContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.experienceItemContainer> :nth-child(n-1) {
+    margin-bottom: 48px;
+}
