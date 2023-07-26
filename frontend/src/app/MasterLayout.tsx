@@ -122,8 +122,8 @@ const MasterLayout = ({ children }: { children: React.ReactNode }) => {
           }}
         >
           ©2023 Ramandeep Bedi |{" "}
-          <a href="mailto:your-email@example.com">Email</a> | | Proudly Built
-          from Scratch
+          <a href="mailto:your-email@example.com">Email</a> | Proudly Built from
+          Scratch
         </Footer>
       </Layout>
     </Layout>

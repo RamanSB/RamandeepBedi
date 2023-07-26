@@ -30,7 +30,8 @@ const AboutPage = () => {
         </Title>
         <Paragraph
           style={{
-            width: "45%",
+            minWidth: "60%",
+            width: "70%",
             fontFamily: "Nunito Sans",
             fontSize: "1.1em",
           }}
