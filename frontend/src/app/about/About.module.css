@@ -1,0 +1,8 @@
+.platformIconsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.platformIconsContainer> :nth-child(n - 1) {
+    margin-right: 16px;
+}
