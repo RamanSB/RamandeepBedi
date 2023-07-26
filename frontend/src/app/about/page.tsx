@@ -96,12 +96,12 @@ const AboutPage = () => {
 const AboutText = () => {
   return (
     <>
-      Hi, I'm Raman.
+      Hi I&apos;m Raman.
       <br />
       <br />
       Welcome to my corner of the internet where I share my journey of
-      continuous learning, growth, and the occasional blog post about what I've
-      been up to.
+      continuous learning, growth, and the occasional blog post about what
+      I&apos;ve been up to.
       <br />
       <br />
       I began my career studying Physics at Imperial College London, where I
@@ -120,13 +120,14 @@ const AboutText = () => {
       <br />
       <br />
       This site is a repository of my insights, learnings, and reflections, and
-      I hope it brings value to your journey, whether you're a budding
+      I hope it brings value to your journey, whether you&apos;re a budding
       entrepreneur or an experienced professional.
       <br />
       <br />
-      Feel free to reach out to me at ramansb100@gmail.com if you're interested
-      in discussing startups, innovation, or just want to bounce ideas around.
-      I'm always eager to learn, collaborate, and explore new perspectives.
+      Feel free to reach out to me at ramansb100@gmail.com if you&apos;re
+      interested in discussing startups, innovation, or just want to bounce
+      ideas around. I&apos;m always eager to learn, collaborate, and explore new
+      perspectives.
       <br />
       <br />
       -Raman

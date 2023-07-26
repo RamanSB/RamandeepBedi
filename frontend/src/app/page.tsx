@@ -8,7 +8,7 @@ const HomePage = () => {
   const router: AppRouterInstance = useRouter();
   useEffect(() => {
     router.replace("/about");
-  }, []);
+  }, [router]);
 
   return null;
 };
