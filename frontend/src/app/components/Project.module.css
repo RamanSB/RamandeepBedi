@@ -3,7 +3,7 @@
     height: fit-content;
     display: flex;
     flex-flow: column nowrap;
-    align-items: start;
+    align-items: flex-start;
     box-shadow: 1px 1px 1px 1px black;
 }
 

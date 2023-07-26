@@ -50,7 +50,7 @@ const AboutPage = () => {
             weeks="38"
             tooltip
             labels
-            style={{ width: "1200px", marginTop: "36px" }}
+            style={{ width: "1000px", marginTop: "36px" }}
           ></codersrank-activity>
           <div className={aboutStyles.platformIconsContainer}>
             <Image

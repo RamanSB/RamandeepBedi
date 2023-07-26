@@ -1,14 +1,11 @@
 "use client";
-import Text from "antd/lib/typography/Text";
+import { Divider, Pagination } from "antd";
 import Title from "antd/es/typography/Title";
-import { Divider, Space } from "antd";
-import Experience from "../components/Experience";
 import canalisLogo from "../../../public/canalis-logo-with-text.jpg";
 import fourCornersLogo from "../../../public/four-corners.jpeg";
-import projectStyles from "../components/Project.module.css";
-import Project from "../components/Project";
-import { Pagination } from "antd";
 import queryAiLogo from "../../../public/query-ai-logo-with-text.jpg";
+import Project from "../components/Project";
+import projectStyles from "../components/Project.module.css";
 
 const ProjectPage = () => {
   return (
