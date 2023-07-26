@@ -36,9 +36,7 @@ const Project = ({
       <Title
         level={2}
         style={{
-          fontFamily: "Nunito Sans",
           cursor: "pointer",
-
           width: "fit-content",
         }}
         onClick={handleNavigateToProject}

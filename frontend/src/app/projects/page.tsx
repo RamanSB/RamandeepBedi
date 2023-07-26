@@ -1,7 +1,7 @@
 "use client";
 import Text from "antd/lib/typography/Text";
 import Title from "antd/es/typography/Title";
-import { Space } from "antd";
+import { Divider, Space } from "antd";
 import Experience from "../components/Experience";
 import canalisLogo from "../../../public/canalis-logo-with-text.jpg";
 import fourCornersLogo from "../../../public/four-corners.jpeg";
@@ -28,6 +28,7 @@ const ProjectPage = () => {
         style={{ fontFamily: "Nunito Sans", marginBottom: "64px" }}
       >
         Projects
+        <Divider></Divider>
       </Title>
 
       <div className={projectStyles.projectsContainer}>

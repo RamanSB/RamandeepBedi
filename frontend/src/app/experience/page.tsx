@@ -1,9 +1,11 @@
 "use client";
-import Text from "antd/lib/typography/Text";
 import Title from "antd/es/typography/Title";
-import { Space } from "antd";
+import { Divider, Space } from "antd";
 import Experience from "../components/Experience";
 import experienceStyles from "../components/Experience.module.css";
+import opengammaLogo from "../../../public/og-icon-logo.jpeg";
+import gsLogo from "../../../public/Goldman_Sachs.svg";
+import spcLogo from "../../../public/spc-logo.svg";
 
 const ExperiencePage = () => {
   return (
@@ -21,6 +23,7 @@ const ExperiencePage = () => {
         style={{ fontFamily: "Nunito Sans", marginBottom: "64px" }}
       >
         Experience
+        <Divider></Divider>
       </Title>
 
       {/* TODO: Add company Logos & Links} */}
@@ -31,6 +34,7 @@ const ExperiencePage = () => {
           startDate={new Date("April 2023")}
           description="Building something great..."
           team="Founder"
+          logo={spcLogo}
         />
 
         <Experience
@@ -40,6 +44,7 @@ const ExperiencePage = () => {
           endDate={new Date("January 2023")}
           description="Software Engineer worked on the development of Margin Features & Client Onboarding."
           team="Margin Analytics, SaaS"
+          logo={opengammaLogo}
         />
 
         <Experience
@@ -49,6 +54,7 @@ const ExperiencePage = () => {
           endDate={new Date("February 2021")}
           description="Backend software engineer in the Securities division, Trade reporting."
           team="Regulatory Engineering, Technology"
+          logo={gsLogo}
         />
       </div>
     </div>

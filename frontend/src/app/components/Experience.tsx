@@ -5,6 +5,8 @@ import { Space } from "antd";
 import TextArea from "antd/lib/input/TextArea";
 import Text from "antd/lib/typography/Text";
 import Title from "antd/lib/typography/Title";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import Image from "next/image";
 
 const Experience = ({
   role,
@@ -13,6 +15,7 @@ const Experience = ({
   description,
   endDate,
   team,
+  logo,
 }: {
   role: string;
   company: string;
@@ -20,10 +23,20 @@ const Experience = ({
   description: string;
   endDate?: Date;
   team?: string;
+  logo?: StaticImport;
 }) => {
   return (
     <div className={experienceStyles.experienceContainer}>
-      <Title level={3}>{company}</Title>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <Title level={3}>{company}</Title>
+        <Image src={logo as StaticImport} alt="company" />
+      </div>
       <div className={experienceStyles.roleAndTenureContainer}>
         <Text style={{ fontFamily: "Nunito Sans", fontSize: "1.4em" }}>
           {role}
